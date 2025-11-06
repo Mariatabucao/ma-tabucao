@@ -961,4 +961,48 @@ section {
   }
 }
 
+.performance-highlights {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.metric {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 25px 35px;
+  text-align: center;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+.metric:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.metric h4 {
+  font-size: 2rem;
+  margin: 0;
+  color: #222;
+  font-weight: 700;
+}
+
+.metric p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.growth {
+  display: inline-block;
+  color: #16a34a;
+  font-weight: 600;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
