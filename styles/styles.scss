@@ -668,4 +668,34 @@ section {
     }
 }
 
+/* ===== Case Study Section ===== */
+.case-studies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.case-item {
+    background-color: var(--color-grey-5);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.case-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.case-item h3 {
+    margin-bottom: 0.8rem;
+    color: var(--color-secondary);
+}
+
+.case-item p {
+    margin-bottom: 1.2rem;
+}
+
 @import './media';
