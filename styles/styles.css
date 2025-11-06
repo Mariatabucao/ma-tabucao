@@ -1029,4 +1029,9 @@ section {
   margin-top: 8px;
   font-style: italic;
 }
+@media (max-width: 768px) {
+  .case-image {
+    max-width: 100%; /* Mobile: 100% width */
+  }
+}
 /*# sourceMappingURL=styles.css.map */
